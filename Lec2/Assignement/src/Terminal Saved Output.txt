@@ -1,0 +1,51 @@
+Last login: Sun Aug  3 10:05:05 on ttys006
+(base) syonaa@Syonaas-MacBook-Pro-2 Assignement % cd src
+(base) syonaa@Syonaas-MacBook-Pro-2 src % python main.py
+=== MAB Algorithm Implementation Status ===
+Exploration Only: ✅ Implemented
+Exploitation Only: ✅ Implemented
+Epsilon-Greedy: ✅ Implemented
+UCB: ✅ Implemented
+
+✅ Ready to run: 4 algorithms
+
+=== Running Comparison (4 algorithms) ===
+Running Exploration Only...
+Running Exploitation Only...
+Running Epsilon-Greedy...
+Running UCB...
+
+==================================================
+EXPERIMENT SUMMARY
+==================================================
+
+EXPLORATION ONLY:
+  Final Cumulative Regret: 301.09
+  Final Average Reward: 0.610
+  Optimal Arm: 2
+  Estimated Optimal Arm: 2
+  Arm Pulls: {0: 204, 1: 213, 2: 187, 3: 191, 4: 205}
+
+EXPLOITATION ONLY:
+  Final Cumulative Regret: 193.45
+  Final Average Reward: 0.600
+  Optimal Arm: 2
+  Estimated Optimal Arm: 0
+  Arm Pulls: {0: 1000, 1: 0, 2: 0, 3: 0, 4: 0}
+
+EPSILON-GREEDY:
+  Final Cumulative Regret: 55.63
+  Final Average Reward: 0.860
+  Optimal Arm: 2
+  Estimated Optimal Arm: 2
+  Arm Pulls: {0: 65, 1: 96, 2: 794, 3: 26, 4: 19}
+
+UCB:
+  Final Cumulative Regret: 112.36
+  Final Average Reward: 0.730
+  Optimal Arm: 2
+  Estimated Optimal Arm: 2
+  Arm Pulls: {0: 180, 1: 139, 2: 588, 3: 53, 4: 40}
+
+Plot saved as 'mab_comparison.png'
+(base) syonaa@Syonaas-MacBook-Pro-2 src % 
